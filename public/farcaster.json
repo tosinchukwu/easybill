@@ -1,0 +1,21 @@
+{
+  "name": "EazyBill Invoice Generator",
+  "short_name": "EazyBill",
+  "description": "Create professional invoices in minutes. No accounts. Invoices automatically delete after 24 hours.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icons/irt1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/irt1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
