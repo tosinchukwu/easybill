@@ -6,13 +6,13 @@
   },
   "miniapp": {
     "name": "EazyBill Invoice Generator",
-    "version": "1.0.0",
+    "version": "1",
     "description": "EazyBill Invoice Generator",
     "iconUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
     "homeUrl": "https://easybillgeneratorlive.vercel.app",
     "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
     "splashBackgroundColor": "#ffffff",
-    "primaryCategory": "Finance",
+    "primaryCategory": "finance",
     "tags": ["invoice", "finance", "business"]
   }
 }
