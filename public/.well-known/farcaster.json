@@ -18,7 +18,7 @@
     "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
     "splashBackgroundColor": "#ffffff",
     "heroImageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
-    "imageUrl": "https://easybillgeneratorlive.vercel.app/image.jpg",
+    "imageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
 
     "screenshotUrls": [
       "https://easybillgeneratorlive.vercel.app/hero.png"
