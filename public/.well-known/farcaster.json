@@ -6,8 +6,12 @@
   },
   "app": {
     "name": "EazyBill Invoice Generator",
-    "description": "Create professional invoices for  business's personal use, it automatically delete after 24 hours.",
-    "url": "https://easybillgeneratorlive.vercel.app/",
-    "icon": "https://easybillgeneratorlive.vercel.app//icons/irt1.png"
+    "version": "1.0.0",
+    "iconUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
+    "homeUrl": "https://easybillgeneratorlive.vercel.app",
+    "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
+    "splashBackgroundColor": "#ffffff",
+    "primaryCategory": "Finance",
+    "tags": ["invoice", "finance", "business"]
   }
 }
