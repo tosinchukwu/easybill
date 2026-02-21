@@ -1,12 +1,18 @@
+import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
-const root = document.getElementById("root");
-const fallback = document.getElementById("base-fallback");
+// 👇 ADD THIS LINE
+import { MiniApp } from "@base-org/sdk";
 
-if (fallback) fallback.remove();
+const root = createRoot(document.getElementById("root")!);
 
-if (root) {
-  createRoot(root).render(<App />);
-}
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// 👇 REQUIRED FOR BASE MINI APP
+MiniApp.ready();
