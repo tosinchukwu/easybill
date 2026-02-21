@@ -30,6 +30,6 @@
 
     "buttonTitle": "Open App",
 
-    "noindex": false
+    "noindex": true
   }
 }
