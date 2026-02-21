@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
-    <meta name="fc:frame" content="easybillgeneratorlive.vercel.app" />
+    <!-- Farcaster / Base Frame -->
+    <meta name="fc:frame" content="https://easybillgeneratorlive.vercel.app" />
     <meta name="base:app_id" content="6998daed90ef883ef1f152d6" />
-    <!-- <meta
+
+    <!-- Mini App Config -->
+    <meta
       name="fc:miniapp"
       content='{
-        "version": "next",
+        "version": "1",
         "imageUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
         "button": {
           "title": "Open App",
@@ -17,39 +19,51 @@
           }
         }
       }'
-    /> -->
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- TODO: Set the document title to the name of your application -->
     <title>EazyBill Invoice Generator</title>
 
-    
-    <meta name="description" content="EazyBill Invoice Generator, for businesses, personal use and firms, Simple invoices that disappear after 24 hours">
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="EazyBill Invoice Generator, for businesses, personal use and firms, Simple invoices that disappear after 24 hours"
+    />
     <meta name="author" content="horlashdev" />
     <meta name="theme-color" content="#0f172a" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    
-    
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/QmhgFsBJP9RdulSuGN5lzrjcFSk2/social-images/social-1771621455626-irt1.webp">
+    <meta property="og:title" content="EazyBill Invoice Generator" />
+    <meta
+      property="og:description"
+      content="Simple invoices that disappear after 24 hours"
+    />
+    <meta property="og:url" content="https://easybillgeneratorlive.vercel.app" />
+    <meta
+      property="og:image"
+      content="https://easybillgeneratorlive.vercel.app/icons/irt1.png"
+    />
 
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@olyabiodun" />
-    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/QmhgFsBJP9RdulSuGN5lzrjcFSk2/social-images/social-1771621455626-irt1.webp">
-    
-  
-  
-  
-  <meta property="og:title" content="EazyBill Invoice Generator">
-  <meta name="twitter:title" content="EazyBill Invoice Generator">
-  <meta property="og:description" content="EazyBill Invoice Generator, for businesses, personal use and firms, Simple invoices that disappear after 24 hours">
-  <meta name="twitter:description" content="EazyBill Invoice Generator, for businesses, personal use and firms,, Simple invoices that disappear after 24 hours">
-</head>
+    <meta name="twitter:title" content="EazyBill Invoice Generator" />
+    <meta
+      name="twitter:description"
+      content="Simple invoices that disappear after 24 hours"
+    />
+    <meta
+      name="twitter:image"
+      content="https://easybillgeneratorlive.vercel.app/icons/irt1.png"
+    />
+  </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- Vite React Entry -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
-</html>
+  </html>
