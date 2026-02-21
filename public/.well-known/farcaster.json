@@ -10,7 +10,7 @@
     "description": "EazyBill Invoice Generator",
     "iconUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
     "homeUrl": "https://easybillgeneratorlive.vercel.app",
-    "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
+    "splashImageUrl": "https://easybillgeneratorlive.vercel.app/irt1.png",
     "splashBackgroundColor": "#ffffff",
     "primaryCategory": "finance",
     "tags": ["invoice", "finance", "business"]
