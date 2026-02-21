@@ -17,5 +17,7 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    optimizeDeps: {
+    include: ["@base-org/sdk"],
   },
 }));
