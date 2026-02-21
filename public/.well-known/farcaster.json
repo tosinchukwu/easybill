@@ -1,0 +1,13 @@
+{
+  "accountAssociation": {
+    "header": "base",
+    "payload": "",
+    "signature": ""
+  },
+  "app": {
+    "name": "EazyBill",
+    "description": "Create professional invoices for  business's personal use, it automatically delete after 24 hours.",
+    "url": "https://easybillgeneratorlive.vercel.app/",
+    "icon": "https://easybillgeneratorlive.vercel.app//icons/irt1.png"
+  }
+}
