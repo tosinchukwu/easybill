@@ -5,22 +5,31 @@
     "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuScJKNtGaH5uJaplFHWmmpwZae1wv8FbHPDnLVXUctInE3c1pe_rPnwbyWA0ld4BE3jYqKJuzPb9Mh1R--XpdwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl8ZgIay2xclZzG8RWZzuWvO8j9R0fus3XxDee9lRlVy8dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACKeyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoianBqNmxKa0I5SUV6bkZnR0htaGdTTzhBdG9VTjZyRmdXMXFLdmtEUWpTQSIsIm9yaWdpbiI6Imh0dHBzOi8va2V5cy5jb2luYmFzZS5jb20iLCJjcm9zc09yaWdpbiI6ZmFsc2V9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
   },
   "miniapp": {
-    "name": "EazyBill Invoice Generator",
     "version": "1",
-    "description": "EazyBill Invoice Generator",
+    "name": "EazyBill Invoice Generator",
+    "subtitle": "Simple Invoice",
+    "tagline": "Generate invoices instantly",
+    "description": "EazyBill Invoice Generator allows businesses and individuals to quickly create and share invoices that disappear after 24 hours.",
+    "primaryCategory": "finance",
+    "tags": ["invoice", "finance", "business"],
+
     "iconUrl": "https://easybillgeneratorlive.vercel.app/icon.png",
-    "imageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
     "homeUrl": "https://easybillgeneratorlive.vercel.app",
     "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
     "splashBackgroundColor": "#ffffff",
-    "primaryCategory": "finance",
-    "subtitle": "EazyBill invoice",
-    "screenshotUrls": ["https://easybillgeneratorlive.vercel.app/hero.png"],
     "heroImageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
-    "tagline": "professional invoice on the go",
-    "ogTitle": "EazyBill invoice generator",
-    "ogDescription": "EazyBill Invoice Generator",
+    "imageUrl": "https://easybillgeneratorlive.vercel.app/image.jpg",
+
+    "screenshotUrls": [
+      "https://easybillgeneratorlive.vercel.app/hero.png"
+    ],
+
+    "ogTitle": "EazyBill Invoice Generator",
+    "ogDescription": "Quickly create and share invoices that disappear after 24 hours",
     "ogImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
-    "tags": ["invoice", "finance", "business"]
+
+    "buttonTitle": "Open App",
+
+    "noindex": false
   }
 }
