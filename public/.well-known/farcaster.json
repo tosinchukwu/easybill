@@ -14,7 +14,6 @@
     "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
     "splashBackgroundColor": "#ffffff",
     "primaryCategory": "finance",
-    "webhookUrl": "https://easybillgeneratorlive.vercel.app",
     "subtitle": "EazyBill invoice",
     "screenshotUrls": ["https://easybillgeneratorlive.vercel.app/hero.png"],
     "heroImageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
