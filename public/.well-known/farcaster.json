@@ -22,7 +22,6 @@
     "ogTitle": "EazyBill invoice generator",
     "ogDescription": "EazyBill Invoice Generator",
     "ogImageUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
-    "noindex": true,
     "tags": ["invoice", "finance", "business"]
   }
 }
