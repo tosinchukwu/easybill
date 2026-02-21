@@ -16,12 +16,13 @@
     "primaryCategory": "finance",
     "webhookUrl": "https://easybillgeneratorlive.vercel.app",
     "subtitle": "EazyBill invoice",
-    "screenshotUrls": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
+    "screenshotUrls": ["https://easybillgeneratorlive.vercel.app/icons/irt1.png"],
     "heroImageUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
     "tagline": "professional invoice on the go",
     "ogTitle": "EazyBill invoice generator",
     "ogDescription": "EazyBill Invoice Generator",
     "ogImageUrl": "https://easybillgeneratorlive.vercel.app/icons/irt1.png",
+    "noindex": true,
     "tags": ["invoice", "finance", "business"]
   }
 }
