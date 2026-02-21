@@ -12,7 +12,7 @@
     "description": "EazyBill Invoice Generator allows businesses and individuals to quickly create and share invoices that disappear after 24 hours.",
     "primaryCategory": "finance",
     "tags": ["invoice", "finance", "business"],
-
+    "webhookUrl": "https://easybillgeneratorlive.vercel.app/api",
     "iconUrl": "https://easybillgeneratorlive.vercel.app/icon.png",
     "homeUrl": "https://easybillgeneratorlive.vercel.app",
     "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
@@ -30,6 +30,6 @@
 
     "buttonTitle": "Open App",
 
-    "noindex": true
+    "noindex": false
   }
 }
