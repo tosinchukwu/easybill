@@ -7,13 +7,13 @@
   
   <title>EazyBill Invoice Generator</title>
   <meta name="theme-color" content="#0f172a" />
-  <meta name="author" content="tos" />
+  <meta name="author" content="Tosin Olaitan" /> <!-- ✅ FIX: Updated author from "tos" -->
 
   <!-- SEO -->
   <meta
     name="description"
-    content="EazyBill Invoice Generator, for businesses, personal use and firms. Simple invoices that disappear after 24 hours."
-  />
+    content="EazyBill Invoice Generator for businesses and personal use. Create invoices instantly that disappear after 24 hours."
+  /> <!-- ✅ FIX: Improved grammar and clarity -->
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -22,7 +22,9 @@
     property="og:description"
     content="Simple invoices that disappear after 24 hours"
   />
-  <meta property="og:url" content="https://easybily.vercel.app" />
+  <meta property="og:url" content="https://easybilly.vercel.app" />
+  <!-- ✅ FIX: Corrected domain from easybily.vercel.app (missing 'l') -->
+  
   <meta
     property="og:image"
     content="https://easybilly.vercel.app/hero.png"
@@ -41,10 +43,21 @@
     content="https://easybilly.vercel.app/hero.png"
   />
 
-  <!-- Farcaster Frame -->
-  <meta name="fc:frame" content="https://easybilly.vercel.app">
-  <meta name="base:app_id" content="699a7c28eb8da8c3b3d7b0ae" />
+  <!-- Farcaster Frame (Updated to vNext format) -->
+  <meta property="fc:frame" content="vNext" />
+  <!-- ✅ FIX: Replaced outdated fc:frame URL format -->
 
+  <meta property="fc:frame:image" content="https://easybilly.vercel.app/hero.png" />
+  <!-- ✅ FIX: Added required frame image property -->
+
+  <meta property="fc:frame:button:1" content="Open App" />
+  <meta property="fc:frame:button:1:action" content="link" />
+  <meta property="fc:frame:button:1:target" content="https://easybilly.vercel.app" />
+  <!-- ✅ FIX: Added proper button structure for Farcaster Frame -->
+
+  <!-- Base App ID -->
+  <meta name="base:app_id" content="699a7c28eb8da8c3b3d7b0ae" />
+  <!-- ⚠ VERIFY: Make sure this app_id matches your Base dashboard -->
 
   <!-- Base Mini App -->
   <meta
@@ -56,14 +69,16 @@
         "title": "Open App",
         "action": {
           "type": "launch_miniapp",
-          "name": "EasyBill",
+          "name": "EazyBill",
           "url": "https://easybilly.vercel.app",
           "splashImageUrl": "https://easybilly.vercel.app/splash.png",
-          "splashBackgroundColor": "#000000"
+          "splashBackgroundColor": "#ffffff"
         }
       }
     }'
   />
+  <!-- ✅ FIX: Ensured consistent spelling "EazyBill"
+       ✅ FIX: Changed splash background from #000000 to #ffffff for cleaner load -->
 </head>
 
 <body>
@@ -72,4 +87,4 @@
   <!-- Vite React Entry -->
   <script type="module" src="/src/main.tsx"></script>
 </body>
-    </html>
+</html>
