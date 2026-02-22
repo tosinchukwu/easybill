@@ -12,21 +12,21 @@
     "description": "EazyBill Invoice Generator allows businesses and individuals to quickly create and share invoices that disappear after 24 hours.",
     "primaryCategory": "finance",
     "tags": ["invoice", "finance", "business"],
-    "webhookUrl": "https://easybillgeneratorlive.vercel.app/api",
-    "iconUrl": "https://easybillgeneratorlive.vercel.app/icon.png",
-    "homeUrl": "https://easybillgeneratorlive.vercel.app",
-    "splashImageUrl": "https://easybillgeneratorlive.vercel.app/splash.png",
+    "webhookUrl": "https://easybilly.vercel.app/api",
+    "iconUrl": "https://easybilly.vercel.app/icon.png",
+    "homeUrl": "https://easybilly.vercel.app",
+    "splashImageUrl": "https://easybilly.vercel.app/splash.png",
     "splashBackgroundColor": "#ffffff",
-    "heroImageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
-    "imageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
+    "heroImageUrl": "https://easybilly.vercel.app/hero.png",
+    "imageUrl": "https://easybilly.vercel.app/hero.png",
 
     "screenshotUrls": [
-      "https://easybillgeneratorlive.vercel.app/hero.png"
+      "https://easybilly.vercel.app/hero.png"
     ],
 
     "ogTitle": "EazyBill Invoice Generator",
     "ogDescription": "Quickly create and share invoices that disappear after 24 hours",
-    "ogImageUrl": "https://easybillgeneratorlive.vercel.app/hero.png",
+    "ogImageUrl": "https://easybilly.vercel.app/hero.png",
 
     "buttonTitle": "Open App",
 
