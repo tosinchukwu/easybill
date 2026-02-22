@@ -3,8 +3,7 @@
     "header": "eyJmaWQiOjM5Nzg2NywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDYwODU5MzllQzhkMEExNkQyMzQ5NzNlMjY5Nzc2OTc3MDdBNUUyZjMifQ",
     "payload": "eyJkb21haW4iOiJlYXN5YmlsbHkudmVyY2VsLmFwcCJ9",
     "signature": "R4ybeZdnnKoAmiZm4U4yN8Z+oWArYt5Q4pQME9Hjn8ImHxzybqvvkWlkgLwmp1Y33m7dIbHfOpW3u9TRgPgnfxw="
-  }
-},
+  },
   "miniapp": {
     "version": "1",
     "name": "EazyBill Invoice Generator",
